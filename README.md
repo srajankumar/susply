@@ -17,6 +17,7 @@ Imagine a supply chain management system that empowers you to streamline operati
 - **Shipment Provider**  
   Deliver Products Sustainably with Eco-Friendly Practices 🌍🚚
 
+<br/>
 <div align="center">
   <img src="/assets/mockups.png" alt="mockups"/>
 </div>
