@@ -21,10 +21,10 @@ Imagine a supply chain management system that empowers you to streamline operati
   <img src="/assets/mockups.png" alt="mockups"/>
 </div>
 
-## Database Design
+## Database Schema
 
 <div align="center">
-  <img src="/assets/db-design.png" alt="db--image"/>
+  <img src="/assets/schema.png" alt="schema"/>
 </div>
 
 ## Tech Stacks

@@ -14,6 +14,7 @@ import Link from "next/link";
 import Logo from "@/components/Logo";
 import LoginOptions from "../LoginOptions";
 import RegisterOptions from "../RegisterOptions";
+import { Github } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -47,6 +48,11 @@ const Navbar = () => {
               </AlertDialogFooter>
             </AlertDialogContent>
           </AlertDialog>
+          <Link href="https://github.com/srajankumar/susply" target="_blank">
+            <Button variant={"ghost"} size={"icon"}>
+              <Github className="w-5 h-5" />
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
