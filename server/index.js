@@ -12,9 +12,24 @@ import { trackRouter } from "./src/routes/susplyRoutes/trackRoutes.js";
 dotenv.config();
 const app = express();
 
-app.use(cors());
+const corsOptions = {
+  origin: [
+    "http://localhost:3000",
+    "https://susply.vercel.app",
+    "https://susply.srajan.tech",
+  ],
+  methods: "*",
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+app.get("/", (req, res) => {
+  res.send("Hello Susply Developer!");
+});
 
 // Authentication-related routes
 app.use("/customer", customerRouter);
