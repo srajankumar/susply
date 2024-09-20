@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
     show: { opacity: 1, y: 0, transition: { type: "spring" } },
   };
   return (
-    <section className="w-full min-h-[100dvh]  px-5 py-12 justify-center lg:grid flex flex-col-reverse lg:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <section className="w-full min-h-screen px-5 py-12 justify-center lg:grid flex flex-col-reverse lg:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <motion.div
         initial="hidden"
         ref={ref}
