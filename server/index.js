@@ -17,6 +17,7 @@ const corsOptions = {
     "http://localhost:3000",
     "https://susply.vercel.app",
     "https://susply.srajan.tech",
+    "https://renderup.vercel.app",
   ],
   methods: "*",
   credentials: true,
